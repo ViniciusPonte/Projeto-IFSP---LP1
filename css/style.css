@@ -1,0 +1,247 @@
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.slider{
+    width: 600px;
+    height: 330px;
+}
+
+
+.slick-arrow{
+    color:black;
+}
+
+.header{
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,0) 0%, rgba(0,0,0,1) 20%, rgba(0,0,0,1) 58%, rgba(0,0,0,1) 100%);
+}
+
+body{
+    background-image:url(img_fundo.jpg);
+    background-position: center top;
+    background-repeat:repeat-x;
+    background-attachment:scroll;
+}
+
+
+p{
+    color:white;
+}
+
+.collapsible-body{
+    background-color:white;
+}
+
+.sessao_itens{
+    background-color: white;
+    
+}
+
+
+.social{
+    margin-left:4px;
+    margin-right:4px;
+}
+.page-footer .material-icons{
+    color: white;
+}
+.buscador{
+    background-color: white;
+}
+
+.page-footer{
+    background: rgb(21,35,181);
+    background: linear-gradient(0deg, rgba(21,35,181,1) 1%, rgba(0,1,73,1) 49%, rgba(0,0,0,1) 100%);
+}
+.mercado{
+    background-color:white;
+    border: 5px black solid;
+    overflow:auto;
+    max-height: 945px;
+}
+.restrito-pagina{
+    justify-content: center;
+    border-radius: 30px;
+    max-height: 1300px;
+    background-color: white;
+    height: 170%;
+}
+.restritoadd-pagina{
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+    height: 140%;
+    width: 60%;
+}
+.restrito-tabela{
+    overflow:auto;
+    max-height: 800px;
+    width: 100%;
+}
+
+.tabela-restrito{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.pagina-registro{
+    background-color: white;
+    height: 170%;
+    padding:50px;
+}
+
+.buscador, .input-field{
+    border-radius: 50px;
+    position: relative;
+    top: -20px;
+}
+
+#search{
+    position: relative;
+    border-radius:50px;
+    top:20px;
+}
+
+.btn-floating{
+    margin: 12px;
+    position: relative;
+    top: -20px;
+}
+
+#logo-site{
+    position: relative;
+    margin-left: 100px;
+    margin-top:-20px;
+    top:-20px;
+}
+
+.lista-itens{
+    margin: 0;
+    padding: 0px 0 0px 20px;
+	list-style: none;
+	background-image: url("lista-style.png");
+	background-repeat: no-repeat;
+	background-position: left center;
+	background-size: 10px;
+}
+
+.busca{
+    position: relative;
+    margin-top:20px;
+}
+
+.login-inscrever{
+    margin-top:-30px;
+}
+html{
+    background-color:black;
+}
+
+.fazerloginPagina, .restritoLogin{
+    justify-content: center;
+    border-radius: 30px;
+    max-height: 500px;
+    background-color: white;
+    height: 170%;
+    width: 50%; 
+}
+
+.detalhar{
+   justify-content: center;
+    border-radius: 30px;
+    max-height: 500px;
+    background-color: white;
+    height: 170%;
+    width: 70%;  
+}
+
+.modal-content{
+    width:90%;
+    height: 95%;
+}
+.botao-entrar{
+    width:40%;
+}
+
+.carrinho-pagina{
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+}
+#carrinho-pagina-vazio{
+    justify-content: center;
+    border-radius: 30px;
+    background-color: white;
+}
+
+.carrinho_tamanhoajustavel{
+    overflow:auto;
+    max-height: 945px;
+
+}
+.carrinho-tabela{
+    width:1000px;
+    align-items: center;
+}
+
+.titulo-detalhe{
+    margin-top:42px;
+    margin-left:30px;
+    
+}
+
+.imagem-detalhe{
+    position: relative;
+    left:30px;
+}
+
+.descricao-detalhe{
+    position:relative;
+    float: right;
+}
+
+.detalhar, .detalhes{
+    height: auto;
+    max-height: 200%;
+    overflow:hidden;
+}
+
+.desc_item{
+    font-size: 20px;
+    color: black;
+    text-align: justify;
+    
+}
+
+.titulo-detalhe, #titulo-carrinho, #titulo-restrito, #titulo-adicionar{
+    font-size:50px;
+    color: lightslategray;
+    font-family: 'Sulphur Point', sans-serif;
+}
+
+#left{
+    padding-left: 50px;
+}
+#right{
+    padding-right: 50px;
+}
+#botaoAtualiza{
+    padding: 0;
+    width: 36px;
+    height: 36px;
+}
+
+.botao-comprar, .botaoLogar, .botaoRegistro{
+    position:relative;
+    top:-12px;
+}
+
+.labeladd{
+    font-size: 20px;
+    color:cornflowerblue;
+}
